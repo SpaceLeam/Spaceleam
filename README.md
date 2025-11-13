@@ -7,6 +7,6 @@
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=SpaceLeam&theme=monokai&hide_border=true" alt="SpaceLeam's Streak" width="48%" />
   
   <!-- Opsional: Tambah stats lain di samping -->
-  <img src="https://github-readme-stats.vercel.app/api?username=SpaceLeam&show_icons=true&theme=radical" width="48%" alt="GitHub Stats" />
+ <img src="https://github-readme-stats.vercel.app/api?username=SpaceLeam&show_icons=true&theme=radical&count_private=true&include_all_branches=true" width="48%" />
   
 </p>
