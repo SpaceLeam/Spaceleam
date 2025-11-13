@@ -1,5 +1,5 @@
 # Hi there 👋, I'm SpaceLeam!
-[Bio lo di sini, e.g., Full-Stack Dev | Building cool stuff 🚀]
+"Crafting robust backend solutions with Laravel | Advocate for secure coding practices | Protecting data in the digital age."
 
 ## 📊 GitHub Stats
 <p align="center">
@@ -9,6 +9,4 @@
   <!-- Opsional: Tambah stats lain di samping -->
   <img src="https://github-readme-stats.vercel.app/api?username=SpaceLeam&show_icons=true&theme=radical" width="48%" alt="GitHub Stats" />
   
-  <!-- Atau top languages di bawah -->
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SpaceLeam&layout=compact&theme=radical" width="100%" alt="Top Languages" />
 </p>
