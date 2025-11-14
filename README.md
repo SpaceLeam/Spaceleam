@@ -10,9 +10,7 @@ Crafting robust backend solutions with Laravel | Advocate for secure coding prac
 </p>
 
 ## 🛠️ Tech Stack
-<p align="center">
-  [![My Skills]https://skillicons.dev/icons?i=kali,laravel,mysql,php,github,html,css,js&theme=dark&perline=8)](https://skillicons.dev)
-</p>
+[![My Skills](https://skillicons.dev/icons?i=flutter,graphql,golang)](https://skillicons.dev)
 
 <div align="center">
   <img src="https://media.giphy.com/media/jBOOXxSJfG8kqMxT11/giphy.gif?cid=ecf05e47ija0smyt2d2jjk1vj8zci67g1tum4kyxykpvh48t&ep=v1_gifs_search&rid=giphy.gif&ct=g" alt="Coding Gif">
