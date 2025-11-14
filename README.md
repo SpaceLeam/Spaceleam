@@ -11,7 +11,7 @@ Crafting robust backend solutions with Laravel | Advocate for secure coding prac
 
 ## 🛠️ Tech Stack
 <p align="center">
-  [![Skills](https://skillicons.dev/icons?i=kali,laravel,mysql,php,github,html,css,js&theme=dark&perline=8)](https://skillicons.dev)
+  [![My Skills]https://skillicons.dev/icons?i=kali,laravel,mysql,php,github,html,css,js&theme=dark&perline=8)](https://skillicons.dev)
 </p>
 
 <div align="center">
