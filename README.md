@@ -1,15 +1,19 @@
 # Hi there 👋, I'm SpaceLeam!
-
 Crafting robust backend solutions with Laravel | Advocate for secure coding practices | Protecting data in the digital age.
 
-## 📊 GitHub Stats
+📊 GitHub Stats
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=SpaceLeam&theme=monokai&hide_border=true" alt="SpaceLeam's Streak" width="48%" />
- 
   <img src="https://github-readme-stats.vercel.app/api?username=SpaceLeam&show_icons=true&theme=radical&count_private=true&include_all_branches=true" width="48%" />
 </p>
+🏆 Trophies
 
-## 🛠️ Tech Stack
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=SpaceLeam&theme=radical&no-frame=true&margin-w=15&margin-h=15" alt="SpaceLeam's Trophies" />
+</p>
+🛠️ Tech Stack
+
+
 [![My Skills](https://skillicons.dev/icons?i=discord,php,github,git,laravel,py,kali)](https://skillicons.dev)
 
 <div align="center">
