@@ -1,0 +1,69 @@
+name: Generate Metrics (isocalendar + languages + summary)
+on:
+  schedule:
+    - cron: '0 1 * * *'    # run daily at 01:00 UTC (sesuaikan kalau mau)
+  workflow_dispatch: {}    # manual trigger
+  push:
+    branches:
+      - main
+
+jobs:
+  generate-metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false    # we'll use committer_token explicitly
+
+      # ---------- ISOCALENDAR (isometric commit calendar) ----------
+      - name: Generate isocalendar SVG
+        uses: lowlighter/metrics@latest
+        with:
+          # Personal Access Token stored in repo secrets
+          token: ${{ secrets.METRICS_TOKEN }}
+          # token used for committing generated files back
+          committer_token: ${{ secrets.METRICS_TOKEN }}
+          committer_branch: main
+          # output filename inside repo
+          filename: metrics.plugin.isocalendar.svg
+          template: classic
+          base: ""                        # keep paths relative
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+          # optional: set width/height or other plugin options if desired
+          # plugin_isocalendar_scale: 1
+
+      # ---------- LANGUAGES (top languages card) ----------
+      - name: Generate languages SVG
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          committer_token: ${{ secrets.METRICS_TOKEN }}
+          committer_branch: main
+          filename: metrics.plugin.languages.svg
+          template: classic
+          base: ""
+          plugin_languages: yes
+          plugin_languages_limit: 8
+          plugin_languages_sections: most-used
+          plugin_languages_details: percentage,bytes-size
+
+      # ---------- SUMMARY / MAIN METRICS CARD ----------
+      - name: Generate main metrics SVG (summary)
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          committer_token: ${{ secrets.METRICS_TOKEN }}
+          committer_branch: main
+          filename: metrics.svg
+          template: classic
+          base: ""
+          plugin_profile: yes
+          plugin_activity: yes
+          plugin_repositories: yes
+          plugin_achievements: yes
+          plugin_overview: yes
+
+      # (Optional) If you prefer to run a single commit for all new files rather than letting the action commit individually,
+      # you can disable committer_token above and add a step here to commit & push the changed files. The action already supports committing.
