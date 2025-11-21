@@ -50,7 +50,7 @@ jobs:
           plugin_languages_details: percentage,bytes-size
 
       # ============================================================
-      # === SUMMARY CARD (No deprecated plugins)
+      # === SUMMARY CARD (VALID PLUGINS)
       # ============================================================
       - name: Generate main metrics SVG (summary)
         uses: lowlighter/metrics@latest
@@ -62,13 +62,26 @@ jobs:
           template: classic
           base: ""
 
-          # FIX: plugin_profile → diganti
           plugin_followup: yes
-
-          # FIX: plugin_overview → diganti
           plugin_repositories: yes
-
-          # Tetap valid:
           plugin_activity: yes
           plugin_achievements: yes
           plugin_people: yes
+
+      # ============================================================
+      # === ANILIST FAVORITES (Anime List)
+      # ============================================================
+      - name: Generate AniList favorites SVG
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          committer_token: ${{ secrets.METRICS_TOKEN }}
+          committer_branch: main
+          filename: metrics.plugin.anilist.svg
+          template: classic
+          base: ""
+          plugin_anilist: yes
+          plugin_anilist_user: SpaceLeam
+          plugin_anilist_sections: favorites
+          plugin_anilist_medias: anime
+          plugin_anilist_limit: 12
