@@ -1,8 +1,9 @@
 name: Generate Metrics (isocalendar + languages + summary)
+
 on:
   schedule:
-    - cron: '0 1 * * *'    # run daily at 01:00 UTC (sesuaikan kalau mau)
-  workflow_dispatch: {}    # manual trigger
+    - cron: "0 1 * * *"   # Daily 01:00 UTC
+  workflow_dispatch: {}
   push:
     branches:
       - main
@@ -14,27 +15,26 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
         with:
-          persist-credentials: false    # we'll use committer_token explicitly
+          persist-credentials: false
 
-      # ---------- ISOCALENDAR (isometric commit calendar) ----------
+      # ============================================================
+      # === ISOCALENDAR (Isometric Contribution Calendar)
+      # ============================================================
       - name: Generate isocalendar SVG
         uses: lowlighter/metrics@latest
         with:
-          # Personal Access Token stored in repo secrets
           token: ${{ secrets.METRICS_TOKEN }}
-          # token used for committing generated files back
           committer_token: ${{ secrets.METRICS_TOKEN }}
           committer_branch: main
-          # output filename inside repo
           filename: metrics.plugin.isocalendar.svg
           template: classic
-          base: ""                        # keep paths relative
+          base: ""
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
-          # optional: set width/height or other plugin options if desired
-          # plugin_isocalendar_scale: 1
 
-      # ---------- LANGUAGES (top languages card) ----------
+      # ============================================================
+      # === LANGUAGES (Most Used Languages)
+      # ============================================================
       - name: Generate languages SVG
         uses: lowlighter/metrics@latest
         with:
@@ -49,7 +49,9 @@ jobs:
           plugin_languages_sections: most-used
           plugin_languages_details: percentage,bytes-size
 
-      # ---------- SUMMARY / MAIN METRICS CARD ----------
+      # ============================================================
+      # === SUMMARY CARD (No deprecated plugins)
+      # ============================================================
       - name: Generate main metrics SVG (summary)
         uses: lowlighter/metrics@latest
         with:
@@ -59,11 +61,14 @@ jobs:
           filename: metrics.svg
           template: classic
           base: ""
-          plugin_profile: yes
-          plugin_activity: yes
-          plugin_repositories: yes
-          plugin_achievements: yes
-          plugin_overview: yes
 
-      # (Optional) If you prefer to run a single commit for all new files rather than letting the action commit individually,
-      # you can disable committer_token above and add a step here to commit & push the changed files. The action already supports committing.
+          # FIX: plugin_profile → diganti
+          plugin_followup: yes
+
+          # FIX: plugin_overview → diganti
+          plugin_repositories: yes
+
+          # Tetap valid:
+          plugin_activity: yes
+          plugin_achievements: yes
+          plugin_people: yes
