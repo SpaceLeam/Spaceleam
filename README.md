@@ -1,5 +1,4 @@
 # Hi there 👋, I'm SpaceLeam!
-
 Crafting robust backend solutions with Laravel | Advocate for secure coding practices | Protecting data in the digital age.
 
 ---
@@ -25,6 +24,14 @@ Crafting robust backend solutions with Laravel | Advocate for secure coding prac
 ## 🛠️ Tech Stack
 
 [![My Skills](https://skillicons.dev/icons?i=discord,php,github,git,laravel,py,kali)](https://skillicons.dev)
+
+---
+
+## 🎌 Anime List (AniList Favorites)
+
+<p align="center">
+  <img src="./metrics.plugin.anilist.svg" width="60%" />
+</p>
 
 ---
 
