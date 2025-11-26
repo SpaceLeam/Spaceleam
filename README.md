@@ -3,7 +3,7 @@ Crafting robust backend solutions with Laravel | Advocate for secure coding prac
 
 ---
 
-## 📈 Metrics (Auto-updated)
+
 
 <p align="center">
   <img src="./metrics.plugin.isocalendar.svg" width="35%"/>
@@ -12,7 +12,7 @@ Crafting robust backend solutions with Laravel | Advocate for secure coding prac
 
 ---
 
-## 📊 GitHub Stats
+
 
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=SpaceLeam&theme=monokai&hide_border=true" width="48%" />
