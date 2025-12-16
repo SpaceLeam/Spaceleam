@@ -12,13 +12,6 @@ Crafting robust backend solutions with Laravel | Advocate for secure coding prac
 
 ---
 
-
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=SpaceLeam&theme=monokai&hide_border=true" width="48%" />
-
-</p>
-
 ---
 
 ## 🛠️ Tech Stack
