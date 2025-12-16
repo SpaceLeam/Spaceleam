@@ -12,10 +12,6 @@ Crafting robust backend solutions with Laravel | Advocate for secure coding prac
 
 ---
 
----
-
-## 🛠️ Tech Stack
-
 [![My Skills](https://skillicons.dev/icons?i=discord,php,github,git,laravel,py,kali)](https://skillicons.dev)
 
 ---
