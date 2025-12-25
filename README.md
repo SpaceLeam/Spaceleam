@@ -1,29 +1,12 @@
-# Hi there 👋, I'm SpaceLeam!
-Crafting robust backend solutions with Laravel | Advocate for secure coding practices | Protecting data in the digital age.
+# Hi there 👋, I'm Kur0Hex!
+Logic bug hunter & security researcher | Specializing in auth, access control & trust-boundary flaws | Turning unsafe assumptions into actionable PoCs
 
 ---
-
-
 
 <p align="center">
   <img src="./metrics.plugin.isocalendar.svg" width="35%"/>
   <img src="./metrics.plugin.languages.svg" width="35%"/>
 </p>
 
----
 
-[![My Skills](https://skillicons.dev/icons?i=discord,php,github,git,laravel,py,kali)](https://skillicons.dev)
-
----
-
-## 🎌 Anime List (AniList Favorites)
-
-<p align="center">
-  <img src="./metrics.plugin.anilist.svg" width="60%" />
-</p>
-
----
-
-<div align="center">
-  <img src="https://media.giphy.com/media/jBOOXxSJfG8kqMxT11/giphy.gif" width="60%">
-</div>
+[![My Skills](https://skillicons.dev/icons?i=github,git,kali,scala,php,python,java)](https://skillicons.dev)
