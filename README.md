@@ -88,17 +88,6 @@ Building tools for automated **Smart Contract Fuzzing**
 
 ---
 
-## GitHub Stats
-
-<img align="right" width="40%" src="https://media.giphy.com/media/SWoSkN6DxTszqIKEqv/giphy.gif"/>
- 
-[![Kur0Hex's GitHub stats](https://github-readme-stats.vercel.app/api?username=Kur0Hex&theme=vision-friendly-dark&bg_color=00000000&hide_border=true&title_color=D000FF&icon_color=D000FF)](https://github.com/Kur0Hex/github-readme-stats)
-
-[![GitHub Streak](https://streak-stats.demolab.com?user=Kur0Hex&theme=dark&card_width=450&bg_color=00000000&hide_border=true&ring_color=D000FF&curr_streak_label=D000FF)](https://git.io/streak-stats) 
-
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Kur0Hex&layout=compact&theme=vision-friendly-dark&bg_color=00000000&hide_border=true&title_color=D000FF)](https://github.com/Kur0Hex/github-readme-stats)
-
----
 
 ## Support
 
