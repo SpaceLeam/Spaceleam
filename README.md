@@ -1,6 +1,6 @@
 <div align="center">
 
-# Hi there 👋, I'm
+# Hi there 👋, I'm Kur0Hex
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=300&size=36&duration=3500&pause=2000&color=8D00F7&width=435&lines=Kur0Hex)](https://git.io/typing-svg)
 
 ### Logic bug hunter & security researcher
